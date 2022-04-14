@@ -16,17 +16,27 @@ An analysis of a recent congressional election requested by a Colorado Board of 
 ## Summary
 The analysis of the election shows that:
 
--There were 369,711 votes cast in the election
--The candidates were:
-  -Charles Casper Stockham
-  -Diana DeGette
-  -Raymon Anthony Doane
- -The candidate results were:
-  -Charles Casper Stockham received 85,213 votes, 23.0% of the vote.
-  -Diana DeGette received 272,892 votes, 73% of the vote.
-  -Raymon Anthony Doane received 11,606 votes, 3.1% of the vote.
- -Therefore, the winner of the election was:
-  -Diana DeGette, with 73% of the vote.
+- There were 369,711 votes cast in the election
+
+- The candidates were:
+
+   - Charles Casper Stockham
+  
+   - Diana DeGette
+  
+   - Raymon Anthony Doane
+  
+ - The candidate results were:
+ 
+   - Charles Casper Stockham received 85,213 votes, 23.0% of the vote.
+  
+   - Diana DeGette received 272,892 votes, 73% of the vote.
+  
+   - Raymon Anthony Doane received 11,606 votes, 3.1% of the vote.
+  
+ - Therefore, the winner of the election was:
+ 
+   - Diana DeGette, with 73% of the vote.
   
   ## Challenge Overview
   
