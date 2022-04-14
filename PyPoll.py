@@ -27,17 +27,19 @@ total_votes = 0
 
 candidate_options = []
 
+# Declare an empty dictionary for votes per candidate.
+
+candidate_votes = {}
+
 # Open the election results and read the file.
 
 with open(file_to_load) as election_data:
 
     file_reader = csv.reader(election_data)
 
-    # Read and print the header row.
+    # Read header row.
 
     headers = next(file_reader)
-
-    print(headers)
 
     # Print each row in the CSV file.
 
@@ -56,13 +58,29 @@ with open(file_to_load) as election_data:
 
             candidate_options.append(candidate_name)
 
-# Print the total votes
+            # Begin tracking that candidate's vote count
 
-print(total_votes)
+            candidate_votes[candidate_name] = 0
 
-# Print the candidate_options list.
+            # Add a vote to that candidate's count
 
-print(candidate_options)
+        candidate_votes[candidate_name] += 1
+
+# Determine the candidate's percentage of votes
+
+# Iterate through the candidate list
+
+for candidate_name in candidate_votes:
+
+    votes = candidate_votes[candidate_name]
+
+    vote_percentage = float(votes) / float(total_votes)*100
+
+    print(f"{candidate_name} received {vote_percentage:.1f}% of the vote.")
+
+# Print the candidate vote dictionary.
+
+print(candidate_votes)
 
 
     
